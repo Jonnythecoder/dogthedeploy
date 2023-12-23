@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/JonnycatMeow/dogemeboy1.git
+RUN git clone https://github.com/Templates-dude/dogey-4.git
 
-WORKDIR /dogemeboy1
+WORKDIR /dogey-4
 
 RUN npm install
 
